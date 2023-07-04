@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+main{
+    width: 70vw;
+    padding-left: 15vw;
+}
+
+p,h1{
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
+}
+
+.title{
+    width: 70vw;
+    margin-top: 5vh;
+    background-color: #000;
+}
+
+.title > h1{
+    font-size: 28px;
+    margin-left: 0.69vw;
+    width: 70vw;
+    color: #FFF;
+    
+}
