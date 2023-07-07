@@ -13,11 +13,24 @@ p, h1, label, input, legend{
     font-weight: 400;
 }
 
-input{
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    
+@media (max-width: 500px){
+    input{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        width: 70vw;
+    }
 }
+
+@media (min-width: 501px){
+    input{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        width: 25vw;
+    }
+}
+
+
+
 
 legend{
     padding-top: 1vw;
